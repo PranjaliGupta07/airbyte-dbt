@@ -1,0 +1,4 @@
+models:
+  sample_use_case:
+    # Applies to all files under models/
+    +materialized: view

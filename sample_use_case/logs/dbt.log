@@ -1,0 +1,112 @@
+[0m14:26:31.766727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE88BEE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE8B4E76A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE8B4F3CA0>]}
+
+
+============================== 14:26:31.766727 | 2541a00e-1ba2-4bfb-b6f8-3a14b5acc445 ==============================
+[0m14:26:31.766727 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:26:31.766727 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:31.766727 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'sample_use_case'
+[0m14:26:31.766727 [debug] [MainThread]: Command `dbt run` failed at 14:26:31.766727 after 0.06 seconds
+[0m14:26:31.766727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE88BEE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE8B51DD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE8B4C2730>]}
+[0m14:26:31.766727 [debug] [MainThread]: Flushing usage events
+[0m14:28:54.747187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE082AE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE0ABA76A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE0ABB2CA0>]}
+
+
+============================== 14:28:54.747187 | 8aa7ba95-ab20-4580-9b13-0059b6e337ad ==============================
+[0m14:28:54.747187 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:28:54.747187 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:28:54.747187 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'sample_use_case'
+[0m14:28:54.747187 [debug] [MainThread]: Command `dbt run` failed at 14:28:54.747187 after 0.07 seconds
+[0m14:28:54.762824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE082AE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE0ABDCD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AE0AB81730>]}
+[0m14:28:54.762971 [debug] [MainThread]: Flushing usage events
+[0m14:49:42.705475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751ACCE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751D5B87F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751D5B8190>]}
+
+
+============================== 14:49:42.705475 | abd8b314-8985-4043-ae1e-27ae04cb94f8 ==============================
+[0m14:49:42.705475 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:49:42.705475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:49:42.886794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'abd8b314-8985-4043-ae1e-27ae04cb94f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017519BFA100>]}
+[0m14:49:42.965664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'abd8b314-8985-4043-ae1e-27ae04cb94f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751D5F7130>]}
+[0m14:49:42.965664 [info ] [MainThread]: Registered adapter: postgres=1.7.10
+[0m14:49:42.981386 [debug] [MainThread]: checksum: b88efa780424265bbbd676e971356ada6a7ea9debd0a80a519a6d2707465340d, vars: {}, profile: , target: , version: 1.7.10
+[0m14:49:42.981386 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:49:42.985559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'abd8b314-8985-4043-ae1e-27ae04cb94f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751D9FA790>]}
+[0m14:49:44.249525 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.sample_use_case.customer_orders' (models\customer_orders.sql) depends on a node named 'your_raw_orders_table_name' which was not found
+[0m14:49:44.249525 [debug] [MainThread]: Command `dbt run` failed at 14:49:44.249525 after 1.58 seconds
+[0m14:49:44.249525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751ACCE460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751DCEE7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001751DCEE3A0>]}
+[0m14:49:44.249525 [debug] [MainThread]: Flushing usage events
+[0m14:50:01.089305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F631A430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F8BF1730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F8BF1EE0>]}
+
+
+============================== 14:50:01.104929 | 978a00bd-98e1-4400-bb6e-44cb63e100a8 ==============================
+[0m14:50:01.104929 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:50:01.104929 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:50:01.271151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '978a00bd-98e1-4400-bb6e-44cb63e100a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F8C17D30>]}
+[0m14:50:01.358771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '978a00bd-98e1-4400-bb6e-44cb63e100a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F8C3A880>]}
+[0m14:50:01.358771 [info ] [MainThread]: Registered adapter: postgres=1.7.10
+[0m14:50:01.358771 [debug] [MainThread]: checksum: b88efa780424265bbbd676e971356ada6a7ea9debd0a80a519a6d2707465340d, vars: {}, profile: , target: , version: 1.7.10
+[0m14:50:01.358771 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:50:01.358771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '978a00bd-98e1-4400-bb6e-44cb63e100a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F9025250>]}
+[0m14:50:02.266288 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.sample_use_case.customer_orders' (models\customer_orders.sql) depends on a node named 'your_raw_orders_table_name' which was not found
+[0m14:50:02.266288 [debug] [MainThread]: Command `dbt run` failed at 14:50:02.266288 after 1.20 seconds
+[0m14:50:02.266288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F631A430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F932C5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255F932C580>]}
+[0m14:50:02.266288 [debug] [MainThread]: Flushing usage events
+[0m14:52:18.487821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660862E460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660AF01310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660AF01EB0>]}
+
+
+============================== 14:52:18.487821 | 551bcda2-9890-4b5e-b121-037beed015ba ==============================
+[0m14:52:18.487821 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:52:18.487821 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:52:18.585410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '551bcda2-9890-4b5e-b121-037beed015ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660AF5B490>]}
+[0m14:52:18.585410 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:52:18.593986 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:52:18.594485 [debug] [MainThread]: Command `dbt deps` succeeded at 14:52:18.594485 after 0.14 seconds
+[0m14:52:18.594485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660862E460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002660765E190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026607673790>]}
+[0m14:52:18.594485 [debug] [MainThread]: Flushing usage events
+[0m14:53:22.156562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F53348D460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F535D28CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F535D280D0>]}
+
+
+============================== 14:53:22.156562 | 528f2af2-8456-444a-aaff-78606f2bc9d1 ==============================
+[0m14:53:22.156562 [info ] [MainThread]: Running with dbt=1.7.10
+[0m14:53:22.156562 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:22.315452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '528f2af2-8456-444a-aaff-78606f2bc9d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F535D37E80>]}
+[0m14:53:22.393950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '528f2af2-8456-444a-aaff-78606f2bc9d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F535D11F70>]}
+[0m14:53:22.393950 [info ] [MainThread]: Registered adapter: postgres=1.7.10
+[0m14:53:22.410234 [debug] [MainThread]: checksum: b88efa780424265bbbd676e971356ada6a7ea9debd0a80a519a6d2707465340d, vars: {}, profile: , target: , version: 1.7.10
+[0m14:53:22.410234 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:53:22.410234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '528f2af2-8456-444a-aaff-78606f2bc9d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F536145E80>]}
+[0m14:53:23.367733 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.sample_use_case.customer_orders' (models\customer_orders.sql) depends on a node named 'your_raw_orders_table_name' which was not found
+[0m14:53:23.370340 [debug] [MainThread]: Command `dbt run` failed at 14:53:23.369822 after 1.25 seconds
+[0m14:53:23.371253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F53348D460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F53643A0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5364868E0>]}
+[0m14:53:23.371823 [debug] [MainThread]: Flushing usage events
+[0m15:16:35.000367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA1E6BE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA4773AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA4773550>]}
+
+
+============================== 15:16:35.000367 | 27c3067a-752f-4ef7-8183-a5564bb6cf85 ==============================
+[0m15:16:35.000367 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:16:35.000367 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'log_path': 'C:\\Users\\Administrator\\sample_use_case\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:16:35.000367 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\Administrator\.dbt/profiles.yml
+  
+[0m15:16:35.000367 [debug] [MainThread]: Command `dbt run` failed at 15:16:35.000367 after 0.05 seconds
+[0m15:16:35.000367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA1E6BE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA478CAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017AA478C130>]}
+[0m15:16:35.000367 [debug] [MainThread]: Flushing usage events
